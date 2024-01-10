@@ -33,7 +33,7 @@ else:
     print("Il n'y a aucune valeur manquante")
 
 dataframe.reset_index(drop=True, inplace=True)
-# dataframe.to_csv(output_csv_path, index=False)
+dataframe.to_csv(output_csv_path, index=False)
 
 
 # Check des données aberrantes avec Boite a Moustache
